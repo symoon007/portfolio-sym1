@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+   font-family: 'Asap Condensed', sans-serif;
+}
+body {
+    margin: 0;
+}
+img {
+    height: 60px;
+    width: 70px;
+}
+.navbar h1 {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size:  2rem;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+.navbar {
+    background-color: rgb(7, 96, 102);
+    padding: 1% 7%;
+    text-align: center;
+}
+.navbar::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.navbar h1 {
+    color: white;
+    margin: 0;
+    padding-top: 10px;
+}
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+.nav-menu a {
+    background-color:rgb(5, 59, 63);
+    border-radius: 10px;
+    margin: 7px;
+    padding: 10px; 
+}
+.nav-menu a:hover {
+    background-color: rgb(96, 104, 100);
+}
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+}
+[class*="col-"] {
+    width: 100%;
+}
+p {
+    font-size:1rem;
+    text-align: justify;
+    letter-spacing: 3px;
+    font-weight: bold;
+   
+}
+.profile {
+    padding: 120px 10px;
+    position: relative;
+    text-align: center;
+}
+.profile .top-icon {
+    position: absolute;
+    right: 60px;
+    top: 20px;
+    transition: transform 2s;
+}
+.profile .top-icon:hover {
+    transform: rotate(360deg);
+}
+.profile .bottom-icon {
+    position: absolute;
+    left: 60px;
+    bottom: 20px;
+    transition: transform 2s;
+}
+.profile .bottom-icon:hover {
+    transform: rotate(360deg);
+}
+.profile-desc h1 {
+    font-family: 'Satisfy', cursive;
+    font-size: 3rem;  
+}
+
+.profile-desc p {
+    color:rgb(115, 120, 121);
+    margin: 20px auto 10px auto;
+    text-align: center;
+    width: 90%;
+}
+.profile-desc p:hover {
+    color: black;
+}
+
